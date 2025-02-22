@@ -15,66 +15,38 @@
     <nav>
         <ul>
             <li><a href="#overview">Overview</a></li>
-            <li><a href="#hardware">Hardware</a></li>
-            <li><a href="#installation">Installation</a></li>
+            <li><a href="#hardware">DUT with Evaluation Board</a></li>
+            <li><a href="#datasheet">Datasheet</a></li>
             <li><a href="#results">Results</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <section id="overview">
-        <h2>Project Overview</h2>
-        <p>This project involves a hardware-in-the-loop setup to test and validate a LM2596 DC-DC converter under different load conditions using LabVIEW.</p>
+        <h2>Interactive Tester Overview</h2>
+        <img src="Interactive_Tester.png" alt="Interactive Tester" width="700">
     </section>
     
     <section id="hardware">
-        <h2>Hardware Components</h2>
-        <ul>
-            <li>DC-DC Converter (LM2596)</li>
-            <li>NI USB-6001 DAQ Module</li>
-            <li>Load Resistors (3.3Ω, 4.7Ω, 6.8Ω, 10Ω)</li>
-            <li>Current Limiter (LM317 Regulator)</li>
-        </ul>
-    </section>
-    
-    <section id="installation">
-        <h2>Installation</h2>
-        <ol>
-            <li>Clone the repository: <code>git clone https://github.com/yourusername/hil-dut-tester.git</code></li>
-            <li>Install LabVIEW and necessary DAQ drivers.</li>
-            <li>Connect the DUT and DAQ module as per the circuit diagram.</li>
-            <li>Run the LabVIEW project.</li>
-        </ol>
+        <h2>DUT with Evaluation Board</h2>
+        <img src="DUT_with_EvaluationBoard.png" alt="DUT with Evaluation Board" width="700">
     </section>
 
+    <section id="datasheet">
+        <h2>Datasheet and Schematics</h2>
+        <p>Refer to the <a href="/datasheet">Datasheet Section</a> for circuit schematics and component details.</p>
+    </section>
+    
     <section id="results">
-        <h2>Test Results</h2>
-        <table>
-            <tr>
-                <th>Load (Ω)</th>
-                <th>Input Voltage (V)</th>
-                <th>Output Voltage (V)</th>
-                <th>Efficiency (%)</th>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>7.53</td>
-                <td>3.00</td>
-                <td>73%</td>
-            </tr>
-            <tr>
-                <td>4.7</td>
-                <td>7.52</td>
-                <td>3.00</td>
-                <td>71%</td>
-            </tr>
-            <tr>
-                <td>1.3</td>
-                <td>7.6</td>
-                <td>3.00</td>
-                <td>68%</td>
-            </tr>
-        </table>
+        <h2>Results</h2>
+        <h3>Current Flow vs Load</h3>
+        <img src="CurrentFlow_DUT_Results.png" alt="Current Flow Results" width="700">
+        
+        <h3>Efficiency vs Load</h3>
+        <img src="Efficiency vs Load Calculations.png" alt="Efficiency vs Load" width="700">
+        
+        <h3>Interactive Tester Measurements</h3>
+        <img src="Results_on_InteractiveTester.png" alt="Results on Interactive Tester" width="700">
     </section>
 
     <section id="contact">
