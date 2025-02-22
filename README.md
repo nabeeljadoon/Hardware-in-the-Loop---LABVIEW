@@ -1,5 +1,5 @@
 # Hardware-in-the-Loop---LABVIEW
-This project is design to evaluate the performance of DC-DC converter in LABVIEW, including interactive design workbench, coding, and evaulation at the end. 
+This project is developed to evaluate the performance of DC-DC converter in LABVIEW, including interactive design workbench, coding, and evaluation at the end. 
 # Hardware-in-the-Loop (HiL) DUT Tester
 
 ## Project Overview
@@ -37,4 +37,4 @@ This repository contains the Hardware-in-the-Loop (HiL) test setup for validatin
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## GitHub Pages
-For documentation, visit: 
+For documentation, visit: https://nabeeljadoon.github.io/Hardware-in-the-Loop---LABVIEW/
