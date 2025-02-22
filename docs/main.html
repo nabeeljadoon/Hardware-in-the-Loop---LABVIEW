@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware-in-the-Loop DUT Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hardware-in-the-Loop DUT Tester</h1>
+        <p>Validating the performance of a DC-DC converter under various loads</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#hardware">Hardware</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="overview">
+        <h2>Project Overview</h2>
+        <p>This project involves a hardware-in-the-loop setup to test and validate a LM2596 DC-DC converter under different load conditions using LabVIEW.</p>
+    </section>
+    
+    <section id="hardware">
+        <h2>Hardware Components</h2>
+        <ul>
+            <li>DC-DC Converter (LM2596)</li>
+            <li>NI USB-6001 DAQ Module</li>
+            <li>Load Resistors (3.3Ω, 4.7Ω, 6.8Ω, 10Ω)</li>
+            <li>Current Limiter (LM317 Regulator)</li>
+        </ul>
+    </section>
+    
+    <section id="installation">
+        <h2>Installation</h2>
+        <ol>
+            <li>Clone the repository: <code>git clone https://github.com/yourusername/hil-dut-tester.git</code></li>
+            <li>Install LabVIEW and necessary DAQ drivers.</li>
+            <li>Connect the DUT and DAQ module as per the circuit diagram.</li>
+            <li>Run the LabVIEW project.</li>
+        </ol>
+    </section>
+
+    <section id="results">
+        <h2>Test Results</h2>
+        <table>
+            <tr>
+                <th>Load (Ω)</th>
+                <th>Input Voltage (V)</th>
+                <th>Output Voltage (V)</th>
+                <th>Efficiency (%)</th>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>7.53</td>
+                <td>3.00</td>
+                <td>73%</td>
+            </tr>
+            <tr>
+                <td>4.7</td>
+                <td>7.52</td>
+                <td>3.00</td>
+                <td>71%</td>
+            </tr>
+            <tr>
+                <td>1.3</td>
+                <td>7.6</td>
+                <td>3.00</td>
+                <td>68%</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For more information, visit the <a href="https://github.com/yourusername/hil-dut-tester">GitHub repository</a>.</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Hardware-in-the-Loop DUT Tester Project</p>
+    </footer>
+</body>
+</html>
