@@ -38,3 +38,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## GitHub Pages
 For documentation, visit: https://nabeeljadoon.github.io/Hardware-in-the-Loop---LABVIEW/
+
+## Citation
+please cite my work as:
+@misc{Jadoon2025HiL,
+  author = {Jadoon, Nabeel Ahmad Khan and Hasan,
+  title = {Hardware-in-the-Loop DUT Tester: Performance Validation of a DC-DC Converter Using LabVIEW},
+  year = {2025},
+  url = {https://github.com/nabeeljadoon/Hardware-in-the-Loop---LABVIEW},
+  note = {GitHub Repository}
+}
+
